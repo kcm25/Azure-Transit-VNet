@@ -185,7 +185,7 @@
 	"variables": {
 		"location" : "[resourceGroup().location]",
 		"rgname" : "[resourceGroup().name]",
-		"baseUrl" : "https://raw.githubusercontent.com/PaloAltoNetworks/Azure-Transit-VNet/master/azure-pan-spoke",
+		"baseUrl" : "https://raw.githubusercontent.com/PaloAltoNetworks/Azure-Transit-VNet/master/Azure-Transit-VNET-1.0/azure-pan-spoke",
 		"nsgURL" : "[concat(variables('baseUrl'),'/nsg-new.json')]",
 		"vnetURL" : "[concat(variables('baseUrl'),'/deployVnet.json')]",
 		"storageAccountSetupURL" : "[concat(variables('baseUrl'),'/deployStorage.json')]",
